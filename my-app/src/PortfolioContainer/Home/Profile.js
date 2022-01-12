@@ -13,13 +13,13 @@ export default function Profile() {
                         <i className='fa fa-google-plus-square'></i>
                     </a>
                     <a href='#'>
-                        <i className='fa fa-instagram-square'></i>
-                    </a>
-                    <a href='#'>
                         <i className='fa fa-youtube-square'></i>
                     </a>
-                    <a href='#'>
-                        <i className='fa fa-twitter-square'></i>
+                    <a href='https://www.linkedin.com/in/carlos-v-28b436114'>
+                        <i className='fa fa-linkedin-square'></i>
+                    </a>
+                    <a href='https://github.com/carvasquez206'>
+                        <i className='fa fa-github-square'></i>
                     </a>
                 </div>
             </div> 
