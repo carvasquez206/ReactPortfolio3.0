@@ -7,6 +7,7 @@ export default function Profile() {
         <div className='profile-parent'>
             <div className='profile-details'>
                 <div className='profile-colz'>
+                    <div className='colz-icon'>
                     <a href='#'>
                         <i className='fa fa-instagram'></i>
                     </a>
@@ -25,6 +26,7 @@ export default function Profile() {
                     <a href='https://github.com/carvasquez206'>
                         <i className='fa fa-github-square'></i>
                     </a>
+                    </div>
                 </div>
 
                 <div className="profile-details-name">
@@ -69,6 +71,11 @@ export default function Profile() {
                     </a>
                 </div>
             </div> 
+            <div className='profile-picture'>
+                <div className='profile-picture-background'>
+
+                </div>
+            </div>
         </div>
     </div>
     )
