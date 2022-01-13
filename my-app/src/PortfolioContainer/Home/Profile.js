@@ -58,7 +58,7 @@ export default function Profile() {
                         />
                         </h1>
                         <span className='profile-role-tagline'>
-                        Knack of building applications with front and back end operations.
+                        For any inqueries contact me at carlos96831@gmail.com
                         </span>
                     </span>
                 </div>
