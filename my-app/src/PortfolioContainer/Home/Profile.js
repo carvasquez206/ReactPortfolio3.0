@@ -1,12 +1,13 @@
 import React from 'react'
 import Typical from 'react-typical'
+import "./Profile.css";
 
 export default function Profile() {
     return (
     <div className='profile-container'>
         <div className='profile-parent'>
             <div className='profile-details'>
-                <div className='profile-colz'>
+                <div className='colz'>
                     <div className='colz-icon'>
                     <a href='#'>
                         <i className='fa fa-instagram'></i>
