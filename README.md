@@ -10,7 +10,7 @@ My portfolio using ReactJS
 - [`npx i react-typical`](https://www.npmjs.com/package/react-typical): For the rotating text in the profile homepage.
 - [`npm i rxjs`](https://www.npmjs.com/package/rxjs)
 
-* Font Installed:
+Font Installed:
 - `npm i @fortawesome/fontawesome-svg-core`
 - `npm i @fortawesome/free-brands-svg-icons` 
 - `npm i @fortawesome/free-regular-svg-icons`

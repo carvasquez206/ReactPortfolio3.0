@@ -10,12 +10,12 @@ export default class ScrollService{
     constructor(){
         window.addEventListener('scroll', this.checkCurrentScreenUnderViewport);
     }
-    scrollToHireMe = ()=>{
+    scrollToHireMe = () => {
         let contactMeScreen = document.getElementById("Contact Me")
         if(!contactMeScreen) return;
         contactMeScreen.scrollIntoView({behavior: "smooth"})
     }
-    scrollToHome = ()=>{
+    scrollToHome = () => {
         let HomeScreen = document.getElementById("Home")
         if(!HomeScreen) return;
         HomeScreen.scrollIntoView({behavior: "smooth"})
@@ -25,8 +25,10 @@ export default class ScrollService{
         let elementTop = rec.top;
         let elementBottom = rec.bottom;
 
-        let partiallyVisible = elementTop < window.innerHeight && elementBottom >=0;
-        let completelyVisible = elementTop >= 0 && elementBottom <=window.innerHeight;
+        let partiallyVisible = 
+            elementTop < window.innerHeight && elementBottom >=0;
+        let completelyVisible = 
+            elementTop >= 0 && elementBottom <= window.innerHeight;
 
         switch(type){
             case "partial":
@@ -36,31 +38,29 @@ export default class ScrollService{
             return completelyVisible;
             default:
                 return false
-
         }
-    }
-    checkCurrentScreenUnderViewport =(event)=>{
-        if(!event || object.keys(event).length < 1)
-        return;
+    };
+
+    checkCurrentScreenUnderViewport = (event) => {
+        if(!event || Object.keys(event).length < 1) return;
         for(let screen of TOTAL_SCREENS){
             let screenFromDOM = document.getElementById(screen.screen_name);
-            if(!screenFromDOM)
-            continue;
+            if(!screenFromDOM) continue;
 
-            let fullyVisible = this.isElementInView(screenFromDOM, "complete")
-            let partiallyVisible = this.isElementInView(screenFromDOM, "partial")
+            let fullyVisible = this.isElementInView(screenFromDOM, "complete");
+            let partiallyVisible = this.isElementInView(screenFromDOM, "partial");
 
             if(fullyVisible || partiallyVisible){
-                if(partiallyVisible && !screen.alreadyRendered){
+                if(partiallyVisible && !screen.alreadyRendered) {
                     ScrollService.currentScreenFadeIn.next({
-                        fadeInScreen: screen_name
+                        fadeInScreen: screen.screen_name,
                     });
                     screen['alreadyRendered'] = true;
                     break;
                 }
                 if(fullyVisible)
                 ScrollService.currentScreenBroadCaster.next({
-                    screenInView: screen_name
+                    screenInView: screen.screen_name
                 });
                 break;
             }
