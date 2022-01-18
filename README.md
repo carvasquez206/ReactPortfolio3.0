@@ -1,6 +1,14 @@
 # ReactPortfolio3.0
 My portfolio using ReactJS
 
+## How to Run App in Terminal
+- Run `cd my-app`: Normally this is written as `client` since it refers to the frontend.
+- Run `npm start`: To start server
+
+## Installations
+- `npm`
+- `npm i jsx`
+
 ## User Story
 
 ```md
@@ -9,7 +17,7 @@ I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 ```
 
-## Acceptance Criteria
+## Criteria
 
 ```md
 GIVEN a single-page application portfolio for a web developer
@@ -38,13 +46,13 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
-## Screenshot
+### Screenshot
 
-## Github Repository
+### Github Repository
 * https://github.com/carvasquez206/ReactPortfolio3.0
 
-## Github Live Webpage Link
+### Github Live Webpage Link
 * https://carvasquez206.github.io/ReactPortfolio3.0/
 
-## Heroku
+### Heroku
 * Working on this
