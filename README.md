@@ -41,10 +41,10 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Screenshot
 
 ## Github Repository
-* link
+* https://github.com/carvasquez206/ReactPortfolio3.0
 
-## Github Link
-* link
+## Github Live Webpage Link
+* https://carvasquez206.github.io/ReactPortfolio3.0/
 
 ## Heroku
-* link
+* Working on this
