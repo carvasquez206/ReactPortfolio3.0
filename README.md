@@ -8,7 +8,14 @@ My portfolio using ReactJS
 ## Installations
 - `npx create-react-app my-app`: To start `React` client page
 - [`npx i react-typical`](https://www.npmjs.com/package/react-typical): For the rotating text in the profile homepage.
-- `npm i jsx`
+- [`npm i rxjs`](https://www.npmjs.com/package/rxjs)
+
+* Font Installed:
+- `npm i @fortawesome/fontawesome-svg-core`
+- `npm i @fortawesome/free-brands-svg-icons` 
+- `npm i @fortawesome/free-regular-svg-icons`
+- `npm i @fortawesome/free-solid-svg-icons`
+- `npm i @fortawesome/react-fontawesome`
 
 ## User Story
 
