@@ -6,7 +6,7 @@ My portfolio using ReactJS
 - Run `npm start`: To start server
 
 ## Installations
-- `npx create-react-app my-app`: To start `React` client page
+- `npx create-react-app my-app`: To start [`React`](https://reactjs.org/docs/create-a-new-react-app.html) page
 - [`npx i react-typical`](https://www.npmjs.com/package/react-typical): For the rotating text in the profile homepage.
 - [`npm i rxjs`](https://www.npmjs.com/package/rxjs)
 
